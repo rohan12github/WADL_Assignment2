@@ -1,0 +1,145 @@
+#header{
+    height: 50%;
+    color: cornsilk;
+
+    opacity: 0.8;
+    margin: 0;
+
+
+}
+#sidebar1 h1{
+    padding-left: 30%;
+    color: aliceblue;
+}
+button:hover{
+    background-color: antiquewhite;
+}
+body{
+    background-image: url(https://images.unsplash.com/photo-1497250681960-ef046c08a56e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJhY2tncm91bmR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#header img{
+    float: inline-start;
+}
+#main{
+    height: 45em;
+    
+}
+#content{
+    float: left;
+    width: 80%;
+    height: 80em;
+    
+    
+    background-color: rgba(169, 169, 169, 0.747);   
+}
+#one{
+    max-width: 45%;
+    float: right;
+}
+
+#img_one{
+    max-width: 40%;
+    float: right;
+    padding: 3em;
+}
+#text{
+    float: left;
+    margin: 2em;
+}
+/*
+#sidebar{
+    float: right;
+    width: 20%;
+    height: 50em;
+
+    
+    background-color: coral;
+}*/
+#sidebar1{
+    float: right;
+    width: 20%;
+    height: 50em;
+
+    
+   /* background-color: coral;*/
+}
+.card{
+    margin: 3em;
+    border-radius: .5em;
+}
+
+button{
+    border-radius: 5px;
+    width:15%;
+    padding: 10px;
+    margin: 12px;
+    background-color: indianred;
+}
+h2{
+    padding: 30px;
+}
+#header p{
+    font-size: 50px;
+}
+#info{
+    padding: 3em;
+    border: 5em;
+    margin: 5em;
+    height: 15%;
+}
+#footer{
+    float: left;
+    width: 100%;
+    background-color: rgb(14, 14, 46);
+    color: white;
+}
+@media all and (max-width: 1142px){
+    #header{
+        height: 7em;
+        
+}
+#sidebar1 h1{
+    padding-left: 40%;
+    color: aliceblue;
+}
+    #main{
+        height:max-content;
+        
+    }
+    button{
+        align-items: center;
+        border-radius: 5px;
+        font-size: 98%;
+        width:17%;
+        padding: 8px;
+        background-color: indianred;
+    }
+
+
+    #text{
+        width: 90%;
+        
+    }
+    #content{
+        height:fit-content;
+        width: 100%;
+        
+    }
+    #sidebar1{
+        
+        width: 100%;
+        height: 30em;
+
+    }
+    #img_one{
+        max-width: 100%;
+        float: right;
+        padding: 1em;
+    }
+
+}
+/*
+
+*/
